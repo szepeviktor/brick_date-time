@@ -1,5 +1,11 @@
 # Changelog
 
+## UNRELEASED (0.6.0)
+
+💥 **Breaking changes**
+
+- Minimum PHP version is now 8.1
+
 ## [0.5.0](https://github.com/brick/date-time/releases/tag/0.5.0) - 2023-06-25
 
 💥 **Breaking changes**
