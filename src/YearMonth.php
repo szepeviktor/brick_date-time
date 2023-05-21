@@ -119,7 +119,7 @@ final class YearMonth implements JsonSerializable
      */
     public function getLengthOfMonth(): int
     {
-        return Month::of($this->month)->getLength($this->isLeapYear());
+        return Month::from($this->month)->getLength($this->isLeapYear());
     }
 
     /**
