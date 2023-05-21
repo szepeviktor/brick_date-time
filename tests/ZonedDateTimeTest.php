@@ -535,7 +535,7 @@ class ZonedDateTimeTest extends AbstractTestCase
 
     public function testGetDayOfWeek(): void
     {
-        $this->assertDayOfWeekIs(DayOfWeek::THURSDAY, $this->getTestZonedDateTime()->getDayOfWeek());
+        $this->assertSame(DayOfWeek::THURSDAY, $this->getTestZonedDateTime()->getDayOfWeek());
     }
 
     public function testGetDayOfYear(): void
