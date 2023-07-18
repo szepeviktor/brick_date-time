@@ -308,7 +308,15 @@ final class LocalDate implements JsonSerializable
         return $this->month;
     }
 
+    /**
+     * @deprecated Use getDayOfMonth() instead.
+     */
     public function getDay(): int
+    {
+        return $this->day;
+    }
+
+    public function getDayOfMonth(): int
     {
         return $this->day;
     }

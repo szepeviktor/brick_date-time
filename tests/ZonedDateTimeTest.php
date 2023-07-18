@@ -533,6 +533,11 @@ class ZonedDateTimeTest extends AbstractTestCase
         $this->assertSame(20, $this->getTestZonedDateTime()->getDay());
     }
 
+    public function testGetDayOfMonth(): void
+    {
+        $this->assertSame(20, $this->getTestZonedDateTime()->getDayOfMonth());
+    }
+
     public function testGetDayOfWeek(): void
     {
         $this->assertSame(DayOfWeek::THURSDAY, $this->getTestZonedDateTime()->getDayOfWeek());
